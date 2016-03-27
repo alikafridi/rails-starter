@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: finalProject_development
+
+test:
+  <<: *default
+  database: finalProject_test
+
+production:
+  <<: *default
+  database: finalProject_production
+  username: finalProject
+  password: <%= ENV['FINALPROJECT_DATABASE_PASSWORD'] %>
