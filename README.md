@@ -1,4 +1,4 @@
-== README
+## README
 
 This is a simple Rails starter template with the following features:
 * Bootstrap for styling
