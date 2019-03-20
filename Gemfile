@@ -14,7 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'better_errors'
 
 # Gem for User (email) Authentication and validation
-gem 'devise'
+gem 'devise', '>= 4.6.0'
 
 # Gem for styling
 gem 'bootstrap-sass'
